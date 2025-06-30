@@ -57,22 +57,22 @@ function runTests() {
   }, 1500);
 }
 
-function runColourCycleTest() {
-  const colours = ['green', 'red', 'yellow', 'blue', 'cyan', 'magenta', 'white'];
+function runColorCycleTest() {
+  const colors = ['green', 'red', 'yellow', 'blue', 'cyan', 'magenta', 'white'];
   let index = 0;
 
   function next() {
-    if (index >= colours.length) {
+    if (index >= colors.length) {
       console.log('\n✅ All spinner colours tested.\n');
       return;
     }
 
-    const colour = colours[index];
-    console.log(`\nTesting spinner color: ${colour}`);
-    const spinner = start(`Colour: ${colour}`, { colour });
+    const color = colors[index];
+    console.log(`\nTesting spinner color: ${color}`);
+    const spinner = start(`Colour: ${color}`, { color });
 
     setTimeout(() => {
-      spinner.succeed(`Finished ${colour} spinner`);
+      spinner.succeed(`Finished ${color} spinner`);
       index++;
       setTimeout(next, 500);
     }, 1500);
