@@ -1,0 +1,26 @@
+{
+  "name": "spinly",
+  "version": "1.0.0",
+  "description": "A super simple CLI spinner",
+  "main": "spinly.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atsb/spinly.git"
+  },
+  "keywords": [
+    "spinner",
+    "CLI",
+    "spin",
+    "rotate",
+    "loading"
+  ],
+  "author": "atsb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atsb/spinly/issues"
+  },
+  "homepage": "https://github.com/atsb/spinly#readme"
+}
